@@ -2,14 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MenuSceneController : MonoBehaviour
+public class QuitGameButtonController : MonoBehaviour
 {
     public SceneChanger sceneChanger;
-    
-    public void Play()
-    {
-        sceneChanger.ChangeScene("GameScene");
-    }
 
     public void Quit()
     {

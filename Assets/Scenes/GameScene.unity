@@ -784,10 +784,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e55b45bbc644ac9b1b4350ffc68e60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 2
   doubleClickTimeMax: 0.5
   isDashing: 0
-  dashModAmount: 5
+  dashModAmount: 6
   dashTimeMax: 1.5
   isCaught: 0
 --- !u!50 &494585978
@@ -5230,10 +5230,10 @@ RectTransform:
   m_Father: {fileID: 1237698791}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -671.3, y: 344}
-  m_SizeDelta: {x: 200.81271, y: 67.39703}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 118.70001, y: -56}
+  m_SizeDelta: {x: 200.81274, y: 67.39703}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1787868810
 MonoBehaviour:
